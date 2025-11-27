@@ -1,0 +1,20 @@
+{
+  "name": "lgpd-back",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Sabrina-88/Descomplica#readme",
+  "bugs": {
+    "url": "https://github.com/Sabrina-88/Descomplica/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sabrina-88/Descomplica.git"
+  },
+  "license": "ISC",
+  "author": "Sabrina Leite",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
