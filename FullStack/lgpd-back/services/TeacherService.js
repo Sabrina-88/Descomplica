@@ -1,7 +1,32 @@
 import TeacherRepository from  "../repositories/TeacherRepository";
 
-const service = {
 
+const saveTeacher = (teacherModel) => {
+    return TeacherRepository.saveTeacher(teacherModel);
+}
+
+const getTeacherById = (id) => {
+    return TeacherRepository.getTeacherById(id);
+}
+
+const getAllTeachers = () => {
+    return TeacherRepository.getAllTeachers();
+}
+
+
+const deletetTeacherById = (id) => {
+    return TeacherRepository.deleteTeacherById(id);
+}
+
+const updatetTeacherById = (id, teacherModel) => {
+    return TeacherRepository.updateTeacherById(id, teacherModel);
+}
+const service = {
+saveTeacher,
+getTeacherById,
+getAllTeachers,
+deletetTeacherById,
+updatetTeacherById
 };
 
 export default service;
