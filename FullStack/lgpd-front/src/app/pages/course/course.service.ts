@@ -1,4 +1,6 @@
 import { ErrorHandler, Injectable } from '@angular/core';
+//Axios em Angular serve para realizar requisições HTTP (GET, POST, etc.) para APIs externas ou internas, facilitando a comunicação entre a aplicação e o servidor para buscar, 
+// enviar e manipular dados.
 import axios from 'axios';
 import { AxiosInstance } from 'axios';
 

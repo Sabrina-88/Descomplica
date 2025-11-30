@@ -1,5 +1,8 @@
 import { HttpClient } from "@angular/common/http";
+// servicos injetaveis
 import { Injectable } from "@angular/core";
+
+// mapemaneto de cahve valor e Observable vai ficar aguardando a resposta do backend
 import { map, Observable, of } from "rxjs";
 import { CourseService } from "../pages/course/course.service";
 import { UserService } from "../pages/user/user.service";
@@ -11,6 +14,7 @@ export interface Params {
 
 
 @Injectable({
+    // para estar disponivel por toda a aplicacao
     providedIn: 'root'
 })
 export class SharedService {
